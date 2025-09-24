@@ -1,0 +1,5 @@
+ts_executor/.env
+  *.log
+  node_modules/
+  __pycache__/
+  *.pyc
