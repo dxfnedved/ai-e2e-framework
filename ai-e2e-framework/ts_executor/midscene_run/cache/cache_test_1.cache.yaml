@@ -1,0 +1,9 @@
+midsceneVersion: 0.29.0
+cacheId: cache_test_1
+caches:
+  - type: plan
+    prompt: Check if this is a website
+    yamlWorkflow: |
+      tasks:
+        - name: Check if this is a website
+          flow: []

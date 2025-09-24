@@ -1,0 +1,2 @@
+[2025-09-24T16:06:36.214+08:00] model, qwen-vl-max-latest, mode, qwen-vl, ui-tars-version, undefined, prompt-tokens, 2489, completion-tokens, 76, total-tokens, 2565, cost-ms, 3358, requestId, 74245d44-7a1f-407a-99d7-30fa1dfa1b17
+[2025-09-24T16:14:05.681+08:00] model, qwen-vl-max-latest, mode, qwen-vl, ui-tars-version, undefined, prompt-tokens, 2491, completion-tokens, 84, total-tokens, 2575, cost-ms, 3686, requestId, 1338857f-ac15-4e43-aa32-9c4abdb41cf9

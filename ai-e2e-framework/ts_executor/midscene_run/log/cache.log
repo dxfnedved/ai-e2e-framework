@@ -1,0 +1,22 @@
+[2025-09-24T15:31:15.834+08:00] no cache file found, path: D:\FTS-AGENT-TEST\MPP\ai-e2e-framework\ts_executor\midscene_run\cache\bridge_test.cache.yaml
+[2025-09-24T15:31:15.851+08:00] no unused cache found, type: plan, prompt: Assert that the text 'do nothing' is visible on the current page
+[2025-09-24T16:06:32.403+08:00] no cache file found, path: D:\FTS-AGENT-TEST\MPP\ai-e2e-framework\ts_executor\midscene_run\cache\cache_test_1.cache.yaml
+[2025-09-24T16:06:32.422+08:00] no unused cache found, type: plan, prompt: Check if this is a website
+[2025-09-24T16:06:36.217+08:00] will append cache {
+  type: 'plan',
+  prompt: 'Check if this is a website',
+  yamlWorkflow: 'tasks:\n  - name: Check if this is a website\n    flow: []\n'
+}
+[2025-09-24T16:06:36.220+08:00] cache flushed to file: D:\FTS-AGENT-TEST\MPP\ai-e2e-framework\ts_executor\midscene_run\cache\cache_test_1.cache.yaml
+[2025-09-24T16:06:39.847+08:00] cache loaded from file, path: D:\FTS-AGENT-TEST\MPP\ai-e2e-framework\ts_executor\midscene_run\cache\cache_test_1.cache.yaml, cache version: 0.29.0, record length: 1
+[2025-09-24T16:06:39.864+08:00] cache found and marked as used, type: plan, prompt: Check if this is a website, index: 0
+[2025-09-24T16:14:01.597+08:00] no cache file found, path: D:\FTS-AGENT-TEST\MPP\ai-e2e-framework\ts_executor\midscene_run\cache\cache_timing_test.cache.yaml
+[2025-09-24T16:14:01.614+08:00] no unused cache found, type: plan, prompt: Check if this is a website about examples
+[2025-09-24T16:14:05.685+08:00] will append cache {
+  type: 'plan',
+  prompt: 'Check if this is a website about examples',
+  yamlWorkflow: 'tasks:\n  - name: Check if this is a website about examples\n    flow: []\n'
+}
+[2025-09-24T16:14:05.687+08:00] cache flushed to file: D:\FTS-AGENT-TEST\MPP\ai-e2e-framework\ts_executor\midscene_run\cache\cache_timing_test.cache.yaml
+[2025-09-24T16:14:08.824+08:00] cache loaded from file, path: D:\FTS-AGENT-TEST\MPP\ai-e2e-framework\ts_executor\midscene_run\cache\cache_timing_test.cache.yaml, cache version: 0.29.0, record length: 1
+[2025-09-24T16:14:08.840+08:00] cache found and marked as used, type: plan, prompt: Check if this is a website about examples, index: 0

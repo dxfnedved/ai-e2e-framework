@@ -1,0 +1,80 @@
+[project]
+name = "ai-driven-e2e-tests"
+version = "1.0.0"
+description = "基于 Midscene.js 和 Pytest Playwright 的 AI 驱动前端测试框架"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "AI Test Framework Team" }
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Quality Assurance",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "pytest>=8.0.0",
+    "playwright>=1.50.0",
+    "pytest-playwright>=0.7.0",
+    "openpyxl>=3.1.0",
+    "pytest-base-url>=2.0.0",
+    "requests>=2.32.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "isort",
+    "flake8",
+    "mypy",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra -q --strict-markers"
+testpaths = ["tests"]
+markers = [
+    "p0: P0 priority tests (core functionality)",
+    "p1: P1 priority tests (secondary functionality)",
+    "bridge: Midscene.js bridge mode tests",
+    "playwright: Playwright integration mode tests",
+    "cache: Cache performance tests",
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+line_length = 88

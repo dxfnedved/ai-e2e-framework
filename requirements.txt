@@ -1,0 +1,5 @@
+pytest
+playwright
+openpyxl
+pytest-playwright
+pytest-html

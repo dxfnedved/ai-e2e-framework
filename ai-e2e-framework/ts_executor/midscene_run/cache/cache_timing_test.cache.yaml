@@ -1,0 +1,9 @@
+midsceneVersion: 0.29.0
+cacheId: cache_timing_test
+caches:
+  - type: plan
+    prompt: Check if this is a website about examples
+    yamlWorkflow: |
+      tasks:
+        - name: Check if this is a website about examples
+          flow: []
